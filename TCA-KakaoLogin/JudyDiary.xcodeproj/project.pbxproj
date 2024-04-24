@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7514A9C82BCFD59D0063FC3A /* EditDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514A9C72BCFD59D0063FC3A /* EditDiaryView.swift */; };
+		75617DA82BCFE39300053948 /* AddDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75617DA72BCFE39300053948 /* AddDiary.swift */; };
+		75F2256C2BD8AB3900F31E54 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2256B2BD8AB3900F31E54 /* LoginView.swift */; };
+		75F2256E2BD8AD2A00F31E54 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2256D2BD8AD2A00F31E54 /* Login.swift */; };
+		75F225712BD8B0C700F31E54 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225702BD8B0C700F31E54 /* KakaoSDK */; };
+		75F225732BD8B0C700F31E54 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225722BD8B0C700F31E54 /* KakaoSDKAuth */; };
+		75F225752BD8B0C700F31E54 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225742BD8B0C700F31E54 /* KakaoSDKCert */; };
+		75F225772BD8B0C700F31E54 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225762BD8B0C700F31E54 /* KakaoSDKCertCore */; };
+		75F225792BD8B0C700F31E54 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225782BD8B0C700F31E54 /* KakaoSDKCommon */; };
+		75F2257B2BD8B0C700F31E54 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 75F2257A2BD8B0C700F31E54 /* KakaoSDKTemplate */; };
+		75F2257D2BD8B0C700F31E54 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 75F2257C2BD8B0C700F31E54 /* KakaoSDKUser */; };
+		994A83382BCCB42E00947A38 /* JudyDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */; };
+		994A833A2BCCB42E00947A38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83392BCCB42E00947A38 /* ContentView.swift */; };
+		994A833C2BCCB42F00947A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994A833B2BCCB42F00947A38 /* Assets.xcassets */; };
+		994A833F2BCCB42F00947A38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994A833E2BCCB42F00947A38 /* Preview Assets.xcassets */; };
+		994A83492BCCB42F00947A38 /* JudyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83482BCCB42F00947A38 /* JudyDiaryTests.swift */; };
+		994A83532BCCB42F00947A38 /* JudyDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83522BCCB42F00947A38 /* JudyDiaryUITests.swift */; };
+		994A83552BCCB42F00947A38 /* JudyDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83542BCCB42F00947A38 /* JudyDiaryUITestsLaunchTests.swift */; };
+		994A83632BCCB46700947A38 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 994A83622BCCB46700947A38 /* ComposableArchitecture */; };
+		994A83672BCCB54500947A38 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83662BCCB54500947A38 /* Diary.swift */; };
+		994A83692BCCB55900947A38 /* AddDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83682BCCB55900947A38 /* AddDiaryView.swift */; };
+		99DA8E232BCCC25A0037887F /* DiaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8E222BCCC25A0037887F /* DiaryList.swift */; };
+		99DA8E252BCD15870037887F /* DiaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8E242BCD15870037887F /* DiaryRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		994A83452BCCB42F00947A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994A832C2BCCB42E00947A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994A83332BCCB42E00947A38;
+			remoteInfo = JudyDiary;
+		};
+		994A834F2BCCB42F00947A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994A832C2BCCB42E00947A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994A83332BCCB42E00947A38;
+			remoteInfo = JudyDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7514A9C72BCFD59D0063FC3A /* EditDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDiaryView.swift; sourceTree = "<group>"; };
+		75617DA72BCFE39300053948 /* AddDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiary.swift; sourceTree = "<group>"; };
+		75F2256B2BD8AB3900F31E54 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		75F2256D2BD8AD2A00F31E54 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		75F2257E2BD8B31600F31E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		994A83342BCCB42E00947A38 /* JudyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryApp.swift; sourceTree = "<group>"; };
+		994A83392BCCB42E00947A38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		994A833B2BCCB42F00947A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994A833E2BCCB42F00947A38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		994A83442BCCB42F00947A38 /* JudyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994A83482BCCB42F00947A38 /* JudyDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryTests.swift; sourceTree = "<group>"; };
+		994A834E2BCCB42F00947A38 /* JudyDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudyDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994A83522BCCB42F00947A38 /* JudyDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryUITests.swift; sourceTree = "<group>"; };
+		994A83542BCCB42F00947A38 /* JudyDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		994A83662BCCB54500947A38 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		994A83682BCCB55900947A38 /* AddDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryView.swift; sourceTree = "<group>"; };
+		99DA8E222BCCC25A0037887F /* DiaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryList.swift; sourceTree = "<group>"; };
+		99DA8E242BCD15870037887F /* DiaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		994A83312BCCB42E00947A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994A83632BCCB46700947A38 /* ComposableArchitecture in Frameworks */,
+				75F225712BD8B0C700F31E54 /* KakaoSDK in Frameworks */,
+				75F2257B2BD8B0C700F31E54 /* KakaoSDKTemplate in Frameworks */,
+				75F225772BD8B0C700F31E54 /* KakaoSDKCertCore in Frameworks */,
+				75F2257D2BD8B0C700F31E54 /* KakaoSDKUser in Frameworks */,
+				75F225732BD8B0C700F31E54 /* KakaoSDKAuth in Frameworks */,
+				75F225792BD8B0C700F31E54 /* KakaoSDKCommon in Frameworks */,
+				75F225752BD8B0C700F31E54 /* KakaoSDKCert in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A83412BCCB42F00947A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A834B2BCCB42F00947A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994A832B2BCCB42E00947A38 = {
+			isa = PBXGroup;
+			children = (
+				994A83362BCCB42E00947A38 /* JudyDiary */,
+				994A83472BCCB42F00947A38 /* JudyDiaryTests */,
+				994A83512BCCB42F00947A38 /* JudyDiaryUITests */,
+				994A83352BCCB42E00947A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		994A83352BCCB42E00947A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994A83342BCCB42E00947A38 /* JudyDiary.app */,
+				994A83442BCCB42F00947A38 /* JudyDiaryTests.xctest */,
+				994A834E2BCCB42F00947A38 /* JudyDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		994A83362BCCB42E00947A38 /* JudyDiary */ = {
+			isa = PBXGroup;
+			children = (
+				75F2257E2BD8B31600F31E54 /* Info.plist */,
+				997020292BD7758B0010241D /* Reducer */,
+				997020282BD7757E0010241D /* View */,
+				994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */,
+				994A833B2BCCB42F00947A38 /* Assets.xcassets */,
+				994A833D2BCCB42F00947A38 /* Preview Content */,
+			);
+			path = JudyDiary;
+			sourceTree = "<group>";
+		};
+		994A833D2BCCB42F00947A38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				994A833E2BCCB42F00947A38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		994A83472BCCB42F00947A38 /* JudyDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				994A83482BCCB42F00947A38 /* JudyDiaryTests.swift */,
+			);
+			path = JudyDiaryTests;
+			sourceTree = "<group>";
+		};
+		994A83512BCCB42F00947A38 /* JudyDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				994A83522BCCB42F00947A38 /* JudyDiaryUITests.swift */,
+				994A83542BCCB42F00947A38 /* JudyDiaryUITestsLaunchTests.swift */,
+			);
+			path = JudyDiaryUITests;
+			sourceTree = "<group>";
+		};
+		997020282BD7757E0010241D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				994A83392BCCB42E00947A38 /* ContentView.swift */,
+				75F2256B2BD8AB3900F31E54 /* LoginView.swift */,
+				994A83682BCCB55900947A38 /* AddDiaryView.swift */,
+				7514A9C72BCFD59D0063FC3A /* EditDiaryView.swift */,
+				99DA8E242BCD15870037887F /* DiaryRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		997020292BD7758B0010241D /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				99DA8E222BCCC25A0037887F /* DiaryList.swift */,
+				994A83662BCCB54500947A38 /* Diary.swift */,
+				75617DA72BCFE39300053948 /* AddDiary.swift */,
+				75F2256D2BD8AD2A00F31E54 /* Login.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		994A83332BCCB42E00947A38 /* JudyDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994A83582BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiary" */;
+			buildPhases = (
+				994A83302BCCB42E00947A38 /* Sources */,
+				994A83312BCCB42E00947A38 /* Frameworks */,
+				994A83322BCCB42E00947A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JudyDiary;
+			packageProductDependencies = (
+				994A83622BCCB46700947A38 /* ComposableArchitecture */,
+				75F225702BD8B0C700F31E54 /* KakaoSDK */,
+				75F225722BD8B0C700F31E54 /* KakaoSDKAuth */,
+				75F225742BD8B0C700F31E54 /* KakaoSDKCert */,
+				75F225762BD8B0C700F31E54 /* KakaoSDKCertCore */,
+				75F225782BD8B0C700F31E54 /* KakaoSDKCommon */,
+				75F2257A2BD8B0C700F31E54 /* KakaoSDKTemplate */,
+				75F2257C2BD8B0C700F31E54 /* KakaoSDKUser */,
+			);
+			productName = JudyDiary;
+			productReference = 994A83342BCCB42E00947A38 /* JudyDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994A83432BCCB42F00947A38 /* JudyDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994A835B2BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiaryTests" */;
+			buildPhases = (
+				994A83402BCCB42F00947A38 /* Sources */,
+				994A83412BCCB42F00947A38 /* Frameworks */,
+				994A83422BCCB42F00947A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994A83462BCCB42F00947A38 /* PBXTargetDependency */,
+			);
+			name = JudyDiaryTests;
+			productName = JudyDiaryTests;
+			productReference = 994A83442BCCB42F00947A38 /* JudyDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		994A834D2BCCB42F00947A38 /* JudyDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994A835E2BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiaryUITests" */;
+			buildPhases = (
+				994A834A2BCCB42F00947A38 /* Sources */,
+				994A834B2BCCB42F00947A38 /* Frameworks */,
+				994A834C2BCCB42F00947A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994A83502BCCB42F00947A38 /* PBXTargetDependency */,
+			);
+			name = JudyDiaryUITests;
+			productName = JudyDiaryUITests;
+			productReference = 994A834E2BCCB42F00947A38 /* JudyDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994A832C2BCCB42E00947A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					994A83332BCCB42E00947A38 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					994A83432BCCB42F00947A38 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 994A83332BCCB42E00947A38;
+					};
+					994A834D2BCCB42F00947A38 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 994A83332BCCB42E00947A38;
+					};
+				};
+			};
+			buildConfigurationList = 994A832F2BCCB42E00947A38 /* Build configuration list for PBXProject "JudyDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 994A832B2BCCB42E00947A38;
+			packageReferences = (
+				994A83612BCCB46700947A38 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = 994A83352BCCB42E00947A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				994A83332BCCB42E00947A38 /* JudyDiary */,
+				994A83432BCCB42F00947A38 /* JudyDiaryTests */,
+				994A834D2BCCB42F00947A38 /* JudyDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		994A83322BCCB42E00947A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994A833F2BCCB42F00947A38 /* Preview Assets.xcassets in Resources */,
+				994A833C2BCCB42F00947A38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A83422BCCB42F00947A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A834C2BCCB42F00947A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		994A83302BCCB42E00947A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994A833A2BCCB42E00947A38 /* ContentView.swift in Sources */,
+				994A83382BCCB42E00947A38 /* JudyDiaryApp.swift in Sources */,
+				994A83692BCCB55900947A38 /* AddDiaryView.swift in Sources */,
+				75F2256C2BD8AB3900F31E54 /* LoginView.swift in Sources */,
+				75617DA82BCFE39300053948 /* AddDiary.swift in Sources */,
+				99DA8E232BCCC25A0037887F /* DiaryList.swift in Sources */,
+				7514A9C82BCFD59D0063FC3A /* EditDiaryView.swift in Sources */,
+				994A83672BCCB54500947A38 /* Diary.swift in Sources */,
+				75F2256E2BD8AD2A00F31E54 /* Login.swift in Sources */,
+				99DA8E252BCD15870037887F /* DiaryRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A83402BCCB42F00947A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994A83492BCCB42F00947A38 /* JudyDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A834A2BCCB42F00947A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994A83552BCCB42F00947A38 /* JudyDiaryUITestsLaunchTests.swift in Sources */,
+				994A83532BCCB42F00947A38 /* JudyDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		994A83462BCCB42F00947A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994A83332BCCB42E00947A38 /* JudyDiary */;
+			targetProxy = 994A83452BCCB42F00947A38 /* PBXContainerItemProxy */;
+		};
+		994A83502BCCB42F00947A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994A83332BCCB42E00947A38 /* JudyDiary */;
+			targetProxy = 994A834F2BCCB42F00947A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		994A83562BCCB42F00947A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		994A83572BCCB42F00947A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		994A83592BCCB42F00947A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JudyDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JudyDiary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mint.judy.diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		994A835A2BCCB42F00947A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JudyDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JudyDiary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mint.judy.diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		994A835C2BCCB42F00947A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.JudyDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JudyDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JudyDiary";
+			};
+			name = Debug;
+		};
+		994A835D2BCCB42F00947A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.JudyDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JudyDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JudyDiary";
+			};
+			name = Release;
+		};
+		994A835F2BCCB42F00947A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.JudyDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JudyDiary;
+			};
+			name = Debug;
+		};
+		994A83602BCCB42F00947A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88Q6F958;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.JudyDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JudyDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		994A832F2BCCB42E00947A38 /* Build configuration list for PBXProject "JudyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994A83562BCCB42F00947A38 /* Debug */,
+				994A83572BCCB42F00947A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994A83582BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994A83592BCCB42F00947A38 /* Debug */,
+				994A835A2BCCB42F00947A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994A835B2BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994A835C2BCCB42F00947A38 /* Debug */,
+				994A835D2BCCB42F00947A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994A835E2BCCB42F00947A38 /* Build configuration list for PBXNativeTarget "JudyDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994A835F2BCCB42F00947A38 /* Debug */,
+				994A83602BCCB42F00947A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		994A83612BCCB46700947A38 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75F225702BD8B0C700F31E54 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		75F225722BD8B0C700F31E54 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		75F225742BD8B0C700F31E54 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		75F225762BD8B0C700F31E54 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		75F225782BD8B0C700F31E54 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		75F2257A2BD8B0C700F31E54 /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		75F2257C2BD8B0C700F31E54 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F2256F2BD8B0C700F31E54 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		994A83622BCCB46700947A38 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 994A83612BCCB46700947A38 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 994A832C2BCCB42E00947A38 /* Project object */;
+}
