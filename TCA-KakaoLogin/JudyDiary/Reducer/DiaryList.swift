@@ -87,6 +87,7 @@ struct DiaryList {
         state.loginToken = token
         return .none
         
+      ///로그인 성공 실패 처리할때 이 케이스를 어떻게 활용해야할지 모르겠다
       case let .loginResponse(.success(response)):
         print(response)
         return .none

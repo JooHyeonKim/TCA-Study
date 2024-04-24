@@ -10,7 +10,6 @@
 		7514A9C82BCFD59D0063FC3A /* EditDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514A9C72BCFD59D0063FC3A /* EditDiaryView.swift */; };
 		75617DA82BCFE39300053948 /* AddDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75617DA72BCFE39300053948 /* AddDiary.swift */; };
 		75F2256C2BD8AB3900F31E54 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2256B2BD8AB3900F31E54 /* LoginView.swift */; };
-		75F2256E2BD8AD2A00F31E54 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2256D2BD8AD2A00F31E54 /* Login.swift */; };
 		75F225712BD8B0C700F31E54 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225702BD8B0C700F31E54 /* KakaoSDK */; };
 		75F225732BD8B0C700F31E54 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225722BD8B0C700F31E54 /* KakaoSDKAuth */; };
 		75F225752BD8B0C700F31E54 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225742BD8B0C700F31E54 /* KakaoSDKCert */; };
@@ -53,7 +52,6 @@
 		7514A9C72BCFD59D0063FC3A /* EditDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDiaryView.swift; sourceTree = "<group>"; };
 		75617DA72BCFE39300053948 /* AddDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiary.swift; sourceTree = "<group>"; };
 		75F2256B2BD8AB3900F31E54 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		75F2256D2BD8AD2A00F31E54 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		75F2257E2BD8B31600F31E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		994A83342BCCB42E00947A38 /* JudyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryApp.swift; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 				99DA8E222BCCC25A0037887F /* DiaryList.swift */,
 				994A83662BCCB54500947A38 /* Diary.swift */,
 				75617DA72BCFE39300053948 /* AddDiary.swift */,
-				75F2256D2BD8AD2A00F31E54 /* Login.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -337,7 +334,6 @@
 				99DA8E232BCCC25A0037887F /* DiaryList.swift in Sources */,
 				7514A9C82BCFD59D0063FC3A /* EditDiaryView.swift in Sources */,
 				994A83672BCCB54500947A38 /* Diary.swift in Sources */,
-				75F2256E2BD8AD2A00F31E54 /* Login.swift in Sources */,
 				99DA8E252BCD15870037887F /* DiaryRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
