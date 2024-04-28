@@ -31,7 +31,6 @@ struct ContentView: View {
       }.sheet(item: $store.scope(state: \.addDiary, action: \.addDiary)) { store in
         NavigationStack {
           AddDiaryView(store: store)
-            .navigationTitle("Add Diary")
         }
       }
     }

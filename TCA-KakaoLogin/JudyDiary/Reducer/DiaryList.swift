@@ -33,8 +33,10 @@ struct DiaryList {
     case diaryList(IdentifiedActionOf<Diary>)
     case addDiary(PresentationAction<AddDiary.Action>)
     case kakaoLoginButtonTapped
-    case loginResponse(Result<String, Error>)
+    case loginResponse(Result<OAuthToken?, Error>)
   }
+  
+  @Dependency(\.kakaoClient) var kakaoClient
   
   var body: some Reducer<State, Action> {
     BindingReducer()
@@ -54,7 +56,6 @@ struct DiaryList {
         }
         return .none
         
-        
       case .addDiary(.presented(.save)):
         if let addDiary = state.addDiary {
           let newDiary = Diary.State(
@@ -66,30 +67,19 @@ struct DiaryList {
         return .none
         
       case .kakaoLoginButtonTapped:
-        state.loginSucceed = true
-        var token: OAuthToken?
-        if UserApi.isKakaoTalkLoginAvailable() {
-          UserApi.shared.loginWithKakaoTalk { (oauthToken, error) in
-            if let error = error {
-              print("Kakao Login Error: \(error)")
-            } else {
-              print("Kakao Login Success.")
-              token = oauthToken
-              ///클로저 내에서는 state에 접근할 수 없구나ㅏ,,
-              ///카카오로그인이 성공했을 때 여기서 state.loginSucceed = true 를 해줄수가 없다...
+        return .run { send in
+          do {
+            if let token = try await self.kakaoClient.login().first(where: { _ in true }) {
+              await send(.loginResponse(.success(token)))
             }
+          } catch {
+            await send(.loginResponse(.failure(KaKaoLoginError.TokenNotFound)))
           }
-        } else {
-          print("KakaoTalk is not available.")
         }
         
-        guard let token = token else { return .none }
-        state.loginToken = token
-        return .none
-        
-      ///로그인 성공 실패 처리할때 이 케이스를 어떻게 활용해야할지 모르겠다
+        ///로그인 성공 실패 처리할때 이 케이스를 어떻게 활용해야할지 모르겠다
       case let .loginResponse(.success(response)):
-        print(response)
+        state.loginSucceed = true
         return .none
         
       case let .loginResponse(.failure(error)):
@@ -111,3 +101,5 @@ struct DiaryList {
     }
   }
 }
+
+extension OAuthToken: @unchecked Sendable {}

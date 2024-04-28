@@ -11,15 +11,14 @@
 			<string>kakaologin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kakao</string>
-				<string>28343e4f697f0fa09992dbde97354395</string>
+				<string>kakao2ac9efa5e9e5401c201a4749bc6e89e4</string>
 			</array>
 		</dict>
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>kakaolink</string>
 		<string>kakaokompassauth</string>
+		<string>kakaolink</string>
 	</array>
 </dict>
 </plist>

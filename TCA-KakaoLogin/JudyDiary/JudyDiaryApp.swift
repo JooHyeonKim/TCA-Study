@@ -15,7 +15,7 @@ import KakaoSDKUser
 struct JudyDiaryApp: App {
   
   init() {
-    KakaoSDK.initSDK(appKey: "28343e4f697f0fa09992dbde97354395")
+    KakaoSDK.initSDK(appKey: "2ac9efa5e9e5401c201a4749bc6e89e4")
   }
   
   var body: some Scene {

@@ -7,9 +7,6 @@
 
 import ComposableArchitecture
 import SwiftUI
-import KakaoSDKCommon
-import KakaoSDKAuth
-import KakaoSDKUser
 
 struct LoginView: View {
   @Bindable var store: StoreOf<DiaryList>
@@ -32,31 +29,9 @@ struct LoginView: View {
               .cornerRadius(8)
           })
         }
-        
-        Button(action: {
-          print("Button Tapped")
-          store.send(.kakaoLoginButtonTapped)
-          
-        }, label: {
-          Text("Kakao Login")
-            .foregroundColor(.white)
-            .padding()
-            .background(Color.orange)
-            .cornerRadius(8)
-        })
-        
         Spacer()
       }
       .padding()
-      .background(
-        NavigationLink(
-          destination: ContentView(store: store),
-          isActive: $store.loginSucceed,
-          label: { EmptyView() }
-        )
-        .opacity(0)
-        .frame(width: 0, height: 0)
-      )
     }
   }
 }

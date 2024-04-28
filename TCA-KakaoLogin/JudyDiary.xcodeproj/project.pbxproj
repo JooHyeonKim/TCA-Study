@@ -17,6 +17,7 @@
 		75F225792BD8B0C700F31E54 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 75F225782BD8B0C700F31E54 /* KakaoSDKCommon */; };
 		75F2257B2BD8B0C700F31E54 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 75F2257A2BD8B0C700F31E54 /* KakaoSDKTemplate */; };
 		75F2257D2BD8B0C700F31E54 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 75F2257C2BD8B0C700F31E54 /* KakaoSDKUser */; };
+		75F225832BD9102100F31E54 /* KakaoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F225822BD9102100F31E54 /* KakaoClient.swift */; };
 		994A83382BCCB42E00947A38 /* JudyDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */; };
 		994A833A2BCCB42E00947A38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A83392BCCB42E00947A38 /* ContentView.swift */; };
 		994A833C2BCCB42F00947A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994A833B2BCCB42F00947A38 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		75617DA72BCFE39300053948 /* AddDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiary.swift; sourceTree = "<group>"; };
 		75F2256B2BD8AB3900F31E54 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		75F2257E2BD8B31600F31E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75F225822BD9102100F31E54 /* KakaoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoClient.swift; sourceTree = "<group>"; };
 		994A83342BCCB42E00947A38 /* JudyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994A83372BCCB42E00947A38 /* JudyDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudyDiaryApp.swift; sourceTree = "<group>"; };
 		994A83392BCCB42E00947A38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F225812BD9101000F31E54 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				75F225822BD9102100F31E54 /* KakaoClient.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 		994A832B2BCCB42E00947A38 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		994A83362BCCB42E00947A38 /* JudyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				75F225812BD9101000F31E54 /* Dependencies */,
 				75F2257E2BD8B31600F31E54 /* Info.plist */,
 				997020292BD7758B0010241D /* Reducer */,
 				997020282BD7757E0010241D /* View */,
@@ -328,6 +339,7 @@
 			files = (
 				994A833A2BCCB42E00947A38 /* ContentView.swift in Sources */,
 				994A83382BCCB42E00947A38 /* JudyDiaryApp.swift in Sources */,
+				75F225832BD9102100F31E54 /* KakaoClient.swift in Sources */,
 				994A83692BCCB55900947A38 /* AddDiaryView.swift in Sources */,
 				75F2256C2BD8AB3900F31E54 /* LoginView.swift in Sources */,
 				75617DA82BCFE39300053948 /* AddDiary.swift in Sources */,
